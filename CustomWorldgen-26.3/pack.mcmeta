@@ -1,0 +1,14 @@
+{
+    "pack":  {
+                 "description":  "CustomWorldgen for 26.3 / Horizon: fewer caves, big smooth biomes, big ore veins",
+                 "pack_format":  121,
+                 "min_format":  [
+                                    121,
+                                    0
+                                ],
+                 "max_format":  [
+                                    121,
+                                    0
+                                ]
+             }
+}

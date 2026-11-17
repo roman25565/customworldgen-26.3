@@ -1,0 +1,41 @@
+{
+    "type":  "minecraft:cache",
+    "input":  {
+                  "type":  "minecraft:spline",
+                  "spline":  {
+                                 "coordinate":  "custom:overworld/ridges_stretched",
+                                 "points":  [
+                                                {
+                                                    "location":  -1,
+                                                    "value":  -1,
+                                                    "derivative":  0.96610169491525422
+                                                },
+                                                {
+                                                    "location":  -0.066666666666666666,
+                                                    "value":  -0.098305084745762716,
+                                                    "derivative":  0.96610169491525422
+                                                },
+                                                {
+                                                    "location":  -0.016666666666666666,
+                                                    "value":  -0.05,
+                                                    "derivative":  2.7050847457627119
+                                                },
+                                                {
+                                                    "location":  0.016666666666666666,
+                                                    "value":  0.05,
+                                                    "derivative":  2.7050847457627119
+                                                },
+                                                {
+                                                    "location":  0.066666666666666666,
+                                                    "value":  0.098305084745762716,
+                                                    "derivative":  0.96610169491525422
+                                                },
+                                                {
+                                                    "location":  1,
+                                                    "value":  1,
+                                                    "derivative":  0.96610169491525422
+                                                }
+                                            ]
+                             }
+              }
+}

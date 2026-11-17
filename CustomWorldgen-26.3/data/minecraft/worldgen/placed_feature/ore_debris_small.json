@@ -1,0 +1,39 @@
+{
+    "feature":  "custom:vein/ore_debris_small",
+    "placement":  [
+                      {
+                          "type":  "minecraft:count",
+                          "count":  {
+                                        "type":  "minecraft:weighted_list",
+                                        "distribution":  [
+                                                             {
+                                                                 "data":  0,
+                                                                 "weight":  992667
+                                                             },
+                                                             {
+                                                                 "data":  1,
+                                                                 "weight":  7333
+                                                             }
+                                                         ]
+                                    }
+                      },
+                      {
+                          "type":  "minecraft:in_square"
+                      },
+                      {
+                          "type":  "minecraft:height_range",
+                          "height":  {
+                                         "type":  "minecraft:uniform",
+                                         "max_inclusive":  {
+                                                               "below_top":  8
+                                                           },
+                                         "min_inclusive":  {
+                                                               "above_bottom":  8
+                                                           }
+                                     }
+                      },
+                      {
+                          "type":  "minecraft:biome"
+                      }
+                  ]
+}

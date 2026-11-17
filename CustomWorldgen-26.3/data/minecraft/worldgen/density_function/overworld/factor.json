@@ -1,0 +1,16 @@
+{
+    "type":  "minecraft:cache",
+    "input":  {
+                  "type":  "minecraft:mul",
+                  "left":  "custom:overworld/factor_vanilla",
+                  "right":  {
+                                "type":  "minecraft:add",
+                                "left":  1,
+                                "right":  {
+                                              "type":  "minecraft:mul",
+                                              "left":  10,
+                                              "right":  "custom:overworld/flatness"
+                                          }
+                            }
+              }
+}

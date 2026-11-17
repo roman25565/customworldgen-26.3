@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": "CustomWorldgen 26.3: fewer caves, big ore clumps, more witch huts and pyramids (vanilla terrain)",
+    "pack_format": 121,
+    "min_format": [
+      121,
+      0
+    ],
+    "max_format": [
+      121,
+      0
+    ]
+  }
+}

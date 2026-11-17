@@ -1,0 +1,48 @@
+{
+    "type":  "minecraft:cache",
+    "input":  {
+                  "type":  "minecraft:add",
+                  "left":  {
+                               "type":  "minecraft:add",
+                               "left":  "custom:overworld/offset_flat",
+                               "right":  {
+                                             "type":  "minecraft:mul",
+                                             "left":  "custom:overworld/lake_mask",
+                                             "right":  {
+                                                           "type":  "minecraft:mul",
+                                                           "left":  0.8,
+                                                           "right":  {
+                                                                         "type":  "minecraft:max",
+                                                                         "left":  {
+                                                                                      "type":  "minecraft:add",
+                                                                                      "left":  -0.49,
+                                                                                      "right":  {
+                                                                                                    "type":  "minecraft:mul",
+                                                                                                    "left":  -1,
+                                                                                                    "right":  "custom:overworld/offset_flat"
+                                                                                                }
+                                                                                  },
+                                                                         "right":  0
+                                                                     }
+                                                       }
+                                         }
+                           },
+                  "right":  {
+                                "type":  "minecraft:mul",
+                                "left":  "custom:overworld/mountain_weight",
+                                "right":  {
+                                              "type":  "minecraft:mul",
+                                              "left":  0.7,
+                                              "right":  {
+                                                            "type":  "minecraft:max",
+                                                            "left":  {
+                                                                         "type":  "minecraft:add",
+                                                                         "left":  "custom:overworld/offset_flat",
+                                                                         "right":  0.2
+                                                                     },
+                                                            "right":  0
+                                                        }
+                                          }
+                            }
+              }
+}

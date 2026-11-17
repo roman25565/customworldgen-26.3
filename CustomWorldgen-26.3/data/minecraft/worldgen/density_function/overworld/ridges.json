@@ -1,0 +1,20 @@
+{
+    "type":  "minecraft:cache",
+    "input":  {
+                  "type":  "minecraft:add",
+                  "left":  "custom:overworld/ridges_rivers",
+                  "right":  {
+                                "type":  "minecraft:mul",
+                                "left":  "custom:overworld/massif",
+                                "right":  {
+                                              "type":  "minecraft:add",
+                                              "left":  0.667,
+                                              "right":  {
+                                                            "type":  "minecraft:mul",
+                                                            "left":  -0.85,
+                                                            "right":  "custom:overworld/ridges_rivers"
+                                                        }
+                                          }
+                            }
+              }
+}

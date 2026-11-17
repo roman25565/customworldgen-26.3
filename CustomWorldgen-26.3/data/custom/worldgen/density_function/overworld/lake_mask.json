@@ -1,0 +1,56 @@
+{
+    "type":  "minecraft:cache",
+    "input":  {
+                  "type":  "minecraft:mul",
+                  "left":  "custom:overworld/flatness",
+                  "right":  {
+                                "type":  "minecraft:mul",
+                                "left":  {
+                                             "type":  "minecraft:spline",
+                                             "spline":  {
+                                                            "coordinate":  "minecraft:overworld/continents",
+                                                            "points":  [
+                                                                           {
+                                                                               "location":  -0.11,
+                                                                               "value":  0,
+                                                                               "derivative":  0
+                                                                           },
+                                                                           {
+                                                                               "location":  0,
+                                                                               "value":  1,
+                                                                               "derivative":  0
+                                                                           }
+                                                                       ]
+                                                        }
+                                         },
+                                "right":  {
+                                              "type":  "minecraft:spline",
+                                              "spline":  {
+                                                             "coordinate":  "minecraft:overworld/ridges",
+                                                             "points":  [
+                                                                            {
+                                                                                "location":  -0.2,
+                                                                                "value":  1,
+                                                                                "derivative":  0
+                                                                            },
+                                                                            {
+                                                                                "location":  -0.1,
+                                                                                "value":  0,
+                                                                                "derivative":  0
+                                                                            },
+                                                                            {
+                                                                                "location":  0.1,
+                                                                                "value":  0,
+                                                                                "derivative":  0
+                                                                            },
+                                                                            {
+                                                                                "location":  0.2,
+                                                                                "value":  1,
+                                                                                "derivative":  0
+                                                                            }
+                                                                        ]
+                                                         }
+                                          }
+                            }
+              }
+}

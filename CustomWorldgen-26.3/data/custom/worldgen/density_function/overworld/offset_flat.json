@@ -1,0 +1,24 @@
+{
+    "type":  "minecraft:cache",
+    "input":  {
+                  "type":  "minecraft:add",
+                  "left":  "custom:overworld/offset_vanilla",
+                  "right":  {
+                                "type":  "minecraft:mul",
+                                "left":  "custom:overworld/flatness",
+                                "right":  {
+                                              "type":  "minecraft:mul",
+                                              "left":  -0.985,
+                                              "right":  {
+                                                            "type":  "minecraft:max",
+                                                            "left":  {
+                                                                         "type":  "minecraft:add",
+                                                                         "left":  "custom:overworld/offset_vanilla",
+                                                                         "right":  0.47
+                                                                     },
+                                                            "right":  0
+                                                        }
+                                          }
+                            }
+              }
+}
